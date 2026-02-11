@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
           bodyMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           bodySmall: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
     );
   }
