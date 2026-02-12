@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
         textTheme: TextTheme(
-          bodyLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          bodyMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+          titleLarge: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+          titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           bodySmall: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
     );
   }
